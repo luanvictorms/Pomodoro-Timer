@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    /* Largura */
+    width: 180px !important;
+    /* Altura */
+    height: 150px !important;
+    /* Tamanho da letra */
+    font-size: 50pt !important;
+    /* Centralizar texto dos inputs */
+    text-align: center !important;
+}
+
+/* Pegando o input (numero) e tirando o spin do botão */
+/* web kit para funcionar em qualquer navegador! */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Pegando o input (numero) e tirando o spin do botão */
+/* moz = mozila */
+input[type="number"]{
+    -moz-appearance: none;
+}
+
+.time{
+    color: #fff;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+}
+
+h2{
+    font-size: 90pt;
+}
+
+#timer{
+    display: none !important;
+}
